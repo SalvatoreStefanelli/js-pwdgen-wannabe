@@ -6,3 +6,10 @@ console.log(last_name);
 
 const favourite_color = prompt('What\'s your favourite color?');
 console.log(favourite_color);
+
+const password = user_name + last_name + favourite_color + 23
+console.log('password');
+
+const passwordElement = document.getElementById('password');
+
+passwordElement.innerHTML = `${password}`;
